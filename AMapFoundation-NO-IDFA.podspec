@@ -7,8 +7,8 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'AMapFoundation-NO-IDFA-XC'
-  s.version          = '1.0.2'
+  s.name             = 'AMapFoundation-NO-IDFA'
+  s.version          = '1.8.2'
   s.summary          = 'A xcframework based AMapFoundation-NO-IDFA Support ARM64 simulator'
 
 # This description is used to generate tags and improve search results.
@@ -18,9 +18,9 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-  This pod is built for AMapFoundation-NO-IDFA xcframework.
+  This pod is built for AMapFoundation-NO-IDFA
     DESC
-  s.homepage         = 'https://github.com/SouHanaQiao/AMapFoundation-NO-IDFA-XC.git'
+  s.homepage         = 'www.google.com'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :text => <<-LICENSE
                         Copyright (c) 2023 souhanaqiao <souhanaqiao@gmail.com>
@@ -45,17 +45,27 @@ Pod::Spec.new do |s|
                         LICENSE
                        }
   s.author           = { 'souahaqiao' => 'souhanaqiao@gmail.com' }
-  # s.source           = { :path => './output/AMapFoundation-NO-IDFA.zip' }
-  s.source           = { :http => 'https://github.com/SouHanaQiao/AMapFoundation-NO-IDFA-XC/releases/download/1.0.2/AMapFoundation-NO-IDFA.zip' }
-  
+  s.source           = { :path => './output/AMapFoundation-NO-IDFA.zip' }
+  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+
   platform = :ios
   
+
   s.ios.deployment_target = '9.0'
 
+  # s.source_files = 'AlipaySDK-in-xcframework/Classes/**/*'
+
   s.vendored_frameworks = 'output/AMapFoundation-NO-IDFA/AMapFoundationKit.xcframework'
+  # s.resource = 'output/AMapFoundation-NO-IDFA/AMap.bundle'
 
   s.frameworks = 'UIKit', 'Foundation', 'CFNetwork', 'SystemConfiguration', 'QuartzCore', 'CoreGraphics', 'CoreMotion', 'CoreTelephony', 'GLKit'
   s.libraries = 'c++', 'z'
   
-  
+  # s.resource_bundles = {
+  #   'AlipaySDK-in-xcframework' => ['AlipaySDK-in-xcframework/Assets/*.png']
+  # }
+
+  # s.public_header_files = 'Pod/Classes/**/*.h'
+  # s.frameworks = 'UIKit', 'MapKit'
+  # s.dependency 'AMapFoundation-NO-IDFA', :path => '../AMapFoundation-NO-IDFA'
 end
