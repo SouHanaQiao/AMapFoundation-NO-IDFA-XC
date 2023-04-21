@@ -45,7 +45,8 @@ Pod::Spec.new do |s|
                         LICENSE
                        }
   s.author           = { 'souahaqiao' => 'souhanaqiao@gmail.com' }
-  s.source           = { :path => './output/AMapFoundation-NO-IDFA.zip' }
+  # s.source           = { :path => './output/AMapFoundation-NO-IDFA.zip' }
+  s.source           = { :http => 'https://github.com/SouHanaQiao/AMapFoundation-NO-IDFA-XC/releases/download/1.0.4/AMapFoundation-NO-IDFA.zip' }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   platform = :ios
