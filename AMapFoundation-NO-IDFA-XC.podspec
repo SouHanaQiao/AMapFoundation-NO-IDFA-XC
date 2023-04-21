@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'AMapFoundation-NO-IDFA-XC'
-  s.version          = '1.8.2'
+  s.version          = '1.0.2'
   s.summary          = 'A xcframework based AMapFoundation-NO-IDFA Support ARM64 simulator'
 
 # This description is used to generate tags and improve search results.
@@ -46,7 +46,7 @@ Pod::Spec.new do |s|
                        }
   s.author           = { 'souahaqiao' => 'souhanaqiao@gmail.com' }
   # s.source           = { :path => './output/AMapFoundation-NO-IDFA.zip' }
-  s.source           = { :http => 'https://github.com/SouHanaQiao/AMapFoundation-NO-IDFA-XC/releases/download/1.0.1/AMapFoundation-NO-IDFA.zip' }
+  s.source           = { :http => 'https://github.com/SouHanaQiao/AMapFoundation-NO-IDFA-XC/releases/download/1.0.2/AMapFoundation-NO-IDFA.zip' }
   
   platform = :ios
   
