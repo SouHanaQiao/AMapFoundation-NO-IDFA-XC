@@ -6,9 +6,9 @@ Pod::Spec.new do |s|
   s.description      = <<-DESC
   This pod is built for AMapFoundation-NO-IDFA, see: https://github.com/SouHanaQiao/AMapFoundation-NO-IDFA-XC.git
     DESC
-  s.homepage         = 'https://github.com/SouHanaQiao/AMapFoundation-NO-IDFA-XC.git'
+  s.homepage         = 'https://github.com/SouHanaQiao/AMapFoundation-NO-IDFA-XC'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'souahaqiao' => 'souhanaqiao@gmail.com' }
+  s.author           = { 'souahaqiao' => 'wangqinqian@126.com' }
   # s.source           = { :path => './output/AMapFoundation-NO-IDFA.zip' }
   s.source           = { :http => 'https://github.com/SouHanaQiao/AMapFoundation-NO-IDFA-XC/releases/download/1.0.8/AMapFoundation-NO-IDFA.zip' }
 
