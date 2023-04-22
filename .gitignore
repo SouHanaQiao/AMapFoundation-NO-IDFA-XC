@@ -89,6 +89,9 @@ fastlane/test_output
 
 iOSInjectionProject/
 
+Podfile.lock
+*/*.lock
+
 .output
 *.zip
 AMapFoundation-NO-IDFA/
