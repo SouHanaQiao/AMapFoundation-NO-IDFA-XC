@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.license          = { :type => "MIT", :file => "LICENSE" }
   s.author           = { 'souahaqiao' => 'souhanaqiao@gmail.com' }
   # s.source           = { :path => './output/AMapFoundation-NO-IDFA.zip' }
-  s.source           = { :http => 'https://github.com/SouHanaQiao/AMapFoundation-NO-IDFA-XC/releases/download/1.0.4/AMapFoundation-NO-IDFA.zip' }
+  s.source           = { :http => 'https://github.com/SouHanaQiao/AMapFoundation-NO-IDFA-XC/releases/download/1.0.6/AMapFoundation-NO-IDFA.zip' }
 
   platform = :ios
   
