@@ -1,22 +1,22 @@
 PODS:
-  - AMapFoundation-NO-IDFA-XC (1.0.7)
+  - AMapFoundation-NO-IDFA-XC (1.0.8)
 
 DEPENDENCIES:
-  - AMapFoundation-NO-IDFA-XC (from `https://github.com/SouHanaQiao/AMapFoundation-NO-IDFA-XC.git`, tag `1.0.7`)
+  - AMapFoundation-NO-IDFA-XC (from `https://github.com/SouHanaQiao/AMapFoundation-NO-IDFA-XC.git`, tag `1.0.8`)
 
 EXTERNAL SOURCES:
   AMapFoundation-NO-IDFA-XC:
     :git: https://github.com/SouHanaQiao/AMapFoundation-NO-IDFA-XC.git
-    :tag: 1.0.7
+    :tag: 1.0.8
 
 CHECKOUT OPTIONS:
   AMapFoundation-NO-IDFA-XC:
     :git: https://github.com/SouHanaQiao/AMapFoundation-NO-IDFA-XC.git
-    :tag: 1.0.7
+    :tag: 1.0.8
 
 SPEC CHECKSUMS:
-  AMapFoundation-NO-IDFA-XC: c2a2c15718233a53795aae09ea683f9ae73f9535
+  AMapFoundation-NO-IDFA-XC: df784058060ba1528b380379b94109f5b0278981
 
-PODFILE CHECKSUM: 9df662b230b6ff75959c21c742953771de1e448c
+PODFILE CHECKSUM: d16b5f950753ab694b6beba72413e239d59ca456
 
 COCOAPODS: 1.12.1
