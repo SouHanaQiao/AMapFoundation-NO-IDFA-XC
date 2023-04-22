@@ -51,22 +51,11 @@ Pod::Spec.new do |s|
 
   platform = :ios
   
-
   s.ios.deployment_target = '9.0'
 
-  # s.source_files = 'AlipaySDK-in-xcframework/Classes/**/*'
-
   s.vendored_frameworks = 'output/AMapFoundation-NO-IDFA/AMapFoundationKit.xcframework'
-  # s.resource = 'output/AMapFoundation-NO-IDFA/AMap.bundle'
 
   s.frameworks = 'UIKit', 'Foundation', 'CFNetwork', 'SystemConfiguration', 'QuartzCore', 'CoreGraphics', 'CoreMotion', 'CoreTelephony', 'GLKit'
   s.libraries = 'c++', 'z'
   
-  # s.resource_bundles = {
-  #   'AlipaySDK-in-xcframework' => ['AlipaySDK-in-xcframework/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AMapFoundation-NO-IDFA', :path => '../AMapFoundation-NO-IDFA'
 end
