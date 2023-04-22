@@ -1,5 +1,5 @@
 PODS:
-  - AMapFoundation-NO-IDFA-XC (1.0.8)
+  - AMapFoundation-NO-IDFA-XC (1.0.9)
 
 DEPENDENCIES:
   - AMapFoundation-NO-IDFA-XC (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  AMapFoundation-NO-IDFA-XC: df784058060ba1528b380379b94109f5b0278981
+  AMapFoundation-NO-IDFA-XC: 8806a1fe25985e94960155a18225a86d4d5bc693
 
 PODFILE CHECKSUM: 8c36d7f99c7d16ccb1aec3a2759342bf8c65323e
 
