@@ -92,6 +92,8 @@ iOSInjectionProject/
 Podfile.lock
 */*.lock
 
+Pods/
+
 .output
 *.zip
 AMapFoundation-NO-IDFA/
