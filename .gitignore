@@ -94,6 +94,14 @@ Podfile.lock
 
 Pods/
 
+*.xcworkspace/
+*.xcodeproj/xcuserdata
+UserInterfaceState.xcuserstate
+!*.xcodeproj/[ ^project.pbxproj]
+
+build/
+DerivedData
+
 .output
 *.zip
 AMapFoundation-NO-IDFA/
