@@ -14,7 +14,8 @@ Pod::Spec.new do |s|
 
   platform = :ios
   
-  s.ios.deployment_target = '9.0'
+  # s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '14.0'
 
   s.vendored_frameworks = 'output/AMapFoundation-NO-IDFA/AMapFoundationKit.xcframework'
 
