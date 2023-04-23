@@ -6,5 +6,8 @@ target 'Example' do
   use_frameworks!
 
   # Pods for Example
-pod 'AMapFoundation-NO-IDFA-XC', :path => '../'
+  # Local only podspec will download source zip
+#  pod 'AMapFoundation-NO-IDFA-XC', :path => '../'
+  pod 'AMapFoundation-NO-IDFA-XC', :podspec => '../'
+
 end

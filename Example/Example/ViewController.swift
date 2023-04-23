@@ -6,12 +6,14 @@
 //
 
 import UIKit
+import AMapFoundationKit
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        AMapServices().apiKey = "some key"
     }
 
 

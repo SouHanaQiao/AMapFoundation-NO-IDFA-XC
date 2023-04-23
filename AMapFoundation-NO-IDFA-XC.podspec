@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'AMapFoundation-NO-IDFA-XC'
-  s.version          = '1.0.9'
+  s.version          = '1.8.2'
   s.summary          = 'A xcframework based AMapFoundation-NO-IDFA Support ARM64 simulator'
 
   s.description      = <<-DESC
@@ -34,7 +34,7 @@ Pod::Spec.new do |s|
   }
   s.author           = { 'souahaqiao' => 'wangqinqian@126.com' }
   # s.source           = { :path => './output/AMapFoundation-NO-IDFA.zip' }
-  s.source           = { :http => 'https://github.com/SouHanaQiao/AMapFoundation-NO-IDFA-XC/releases/download/1.0.9/AMapFoundation-NO-IDFA.zip' }
+  s.source           = { :http => 'https://github.com/SouHanaQiao/AMapFoundation-NO-IDFA-XC/releases/download/1.8.2/AMapFoundation-NO-IDFA.zip' }
 
   platform = :ios
   
@@ -43,7 +43,7 @@ Pod::Spec.new do |s|
 
   s.vendored_frameworks = 'output/AMapFoundation-NO-IDFA/AMapFoundationKit.xcframework'
 
-  s.frameworks = 'UIKit', 'Foundation', 'CFNetwork', 'SystemConfiguration', 'QuartzCore', 'CoreGraphics', 'CoreMotion', 'CoreTelephony', 'GLKit'
+  s.frameworks = 'Security', 'SystemConfiguration', 'CoreLocation', 'CoreTelephony'
   s.libraries = 'c++', 'z'
-  
+  s.cocoapods_version = '>= 1.12.1'
 end
