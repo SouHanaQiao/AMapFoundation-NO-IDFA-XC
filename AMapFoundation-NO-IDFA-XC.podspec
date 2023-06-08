@@ -37,8 +37,6 @@ Pod::Spec.new do |s|
   s.source           = { :http => 'https://github.com/SouHanaQiao/AMapFoundation-NO-IDFA-XC/releases/download/1.8.2/AMapFoundation-NO-IDFA.zip' }
 
   platform = :ios
-  
-  # s.ios.deployment_target = '9.0'
   s.ios.deployment_target = '11.0'
 
   s.vendored_frameworks = 'output/AMapFoundation-NO-IDFA/AMapFoundationKit.xcframework'
