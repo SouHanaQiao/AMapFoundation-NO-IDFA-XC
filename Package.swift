@@ -14,7 +14,7 @@ let package = Package(
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
         // Targets can depend on other targets in this package and products from dependencies.
-        .binaryTarget(name: "AMapFoundation-NO-IDFA-XC", url: "https://github.com/SouHanaQiao/AMapFoundation-NO-IDFA-XC/releases/download/1.8.2/AMapFoundation-NO-IDFA.zip", checksum: "b41f96bb90cf4d349e875f6daeed07e2051b30eb4860ec624b6e3c3739ae585d"),
+        .binaryTarget(name: "AMapFoundation-NO-IDFA-XC", url: "https://github.com/SouHanaQiao/AMapFoundation-NO-IDFA-XC/releases/download/1.8.2/AMapFoundation-NO-IDFA.zip", checksum: "fa6428e01adb6879680dc219103ddf0caceae4c550c0076cc984e300fb034084"),
         .testTarget(
             name: "AMapFoundation-NO-IDFA-XCTests",
             dependencies: ["AMapFoundation-NO-IDFA-XC"]),
