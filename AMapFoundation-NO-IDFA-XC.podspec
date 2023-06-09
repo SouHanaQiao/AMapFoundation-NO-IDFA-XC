@@ -36,12 +36,10 @@ Pod::Spec.new do |s|
   # s.source           = { :path => './output/AMapFoundation-NO-IDFA.zip' }
   s.source           = { :http => 'https://github.com/SouHanaQiao/AMapFoundation-NO-IDFA-XC/releases/download/1.8.2/AMapFoundation-NO-IDFA.zip' }
 
-  platform = :ios
+  platform = :ios, '11.0'
   s.ios.deployment_target = '11.0'
 
-  s.vendored_frameworks = 'output/AMapFoundation-NO-IDFA/AMapFoundationKit.xcframework'
+  s.vendored_frameworks = 'AMapFoundation-NO-IDFA/AMapFoundationKit.xcframework'
 
-  s.frameworks = 'Security', 'SystemConfiguration', 'CoreLocation', 'CoreTelephony'
-  s.libraries = 'c++', 'z'
   s.cocoapods_version = '>= 1.12.1'
 end
