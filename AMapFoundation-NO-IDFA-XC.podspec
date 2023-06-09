@@ -39,7 +39,9 @@ Pod::Spec.new do |s|
   platform = :ios, '11.0'
   s.ios.deployment_target = '11.0'
 
-  s.vendored_frameworks = 'AMapFoundation-NO-IDFA/AMapFoundationKit.xcframework'
+  s.vendored_frameworks = 'AMapFoundationKit.xcframework'
+  
+  s.libraries = 'c++', 'z'
 
   s.cocoapods_version = '>= 1.12.1'
 end
