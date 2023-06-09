@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'AMapFoundation-NO-IDFA-XC'
-  s.version          = '1.8.2'
+  s.version          = '1.8.3'
   s.summary          = 'A xcframework based AMapFoundation-NO-IDFA Support ARM64 simulator'
 
   s.description      = <<-DESC
