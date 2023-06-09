@@ -40,7 +40,8 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '11.0'
 
   s.vendored_frameworks = 'AMapFoundationKit.xcframework'
-  
+
+  s.frameworks = 'Security', 'SystemConfiguration', 'CoreLocation', 'CoreTelephony'
   s.libraries = 'c++', 'z'
 
   s.cocoapods_version = '>= 1.12.1'
