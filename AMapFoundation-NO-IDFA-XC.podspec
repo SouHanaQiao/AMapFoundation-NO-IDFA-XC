@@ -34,7 +34,7 @@ Pod::Spec.new do |s|
   }
   s.author           = { 'souahaqiao' => 'wangqinqian@126.com' }
   # s.source           = { :path => './output/AMapFoundation-NO-IDFA.zip' }
-  s.source           = { :http => 'https://github.com/SouHanaQiao/AMapFoundation-NO-IDFA-XC/releases/download/1.8.2/AMapFoundation-NO-IDFA.zip' }
+  s.source           = { :http => 'https://github.com/SouHanaQiao/AMapFoundation-NO-IDFA-XC/releases/download/1.8.3/AMapFoundation-NO-IDFA.zip' }
 
   platform = :ios, '11.0'
   s.ios.deployment_target = '11.0'
